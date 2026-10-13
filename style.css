@@ -1,0 +1,117 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #222;
+    margin: 0;
+}
+
+.site-header {
+    background-color: #244a82;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.site-header h1 {
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.site-header p {
+    margin-bottom: 0;
+}
+
+.form-section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.form-section h2 {
+    color: #244a82;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.form-section p {
+    margin-bottom: 20px;
+}
+
+.form-label,
+legend {
+    font-weight: bold;
+}
+
+.form-control,
+.form-select {
+    border-radius: 5px;
+}
+
+.btn {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.feedback-form .valid-feedback,
+.feedback-form .invalid-feedback {
+    margin-top: 5px;
+}
+
+.feedback-form.was-validated .form-control:valid,
+.feedback-form.was-validated .form-select:valid,
+.feedback-form .form-control.is-valid,
+.feedback-form .form-select.is-valid {
+    border-color: #198754;
+}
+
+.feedback-form.was-validated .form-control:invalid,
+.feedback-form.was-validated .form-select:invalid,
+.feedback-form .form-control.is-invalid,
+.feedback-form .form-select.is-invalid {
+    border-color: #dc3545;
+}
+
+.feedback-form .form-control:focus,
+.feedback-form .form-select:focus {
+    box-shadow: 0 0 0 0.25rem rgba(36, 74, 130, 0.18);
+}
+
+.feedback-form fieldset .invalid-feedback {
+    display: none;
+}
+
+.feedback-form.was-validated fieldset:has(input[name="gender"]:invalid) .invalid-feedback {
+    display: block;
+}
+
+.site-footer {
+    background-color: #244a82;
+    color: white;
+    text-align: center;
+    padding: 18px 0;
+}
+
+.site-footer p {
+    margin-bottom: 0;
+}
+
+@media (max-width: 576px) {
+    .site-header h1 {
+        font-size: 26px;
+    }
+
+    .form-section {
+        padding: 18px;
+    }
+
+    .form-section h2 {
+        font-size: 21px;
+    }
+
+    .btn {
+        margin-bottom: 8px;
+    }
+}
